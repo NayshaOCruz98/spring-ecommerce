@@ -12,7 +12,7 @@ import jakarta.persistence.Table;
 public class Producto {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	private int id;
+	private Integer id;
 	private String nombre;
 	private String descripcion;
 	private String imagen;
@@ -41,7 +41,7 @@ public class Producto {
 
 
 
-	public int getId() {
+	public Integer getId() {
 		return id;
 	}
 
